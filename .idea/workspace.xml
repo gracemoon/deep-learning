@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99148d50-2834-4514-8de8-fadfd03623a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/linear_descent.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_descent.py" afterDir="false" />
-    </list>
+    <list default="true" id="99148d50-2834-4514-8de8-fadfd03623a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +56,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="175" />
-          <entry key="py" value="4134" />
+          <entry key="py" value="4166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="175" />
-          <entry key="Python" value="4134" />
+          <entry key="Python" value="4166" />
         </counts>
       </usages-collector>
     </session>
@@ -87,13 +85,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linear_descent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+            <state relative-caret-position="139">
+              <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
               <folding>
-                <marker date="1542438647592" expanded="true" signature="838:1550" ph="..." />
-                <marker date="1542438647592" expanded="true" signature="1161:1550" ph="..." />
-                <marker date="1542438647592" expanded="true" signature="1596:1601" ph="..." />
-                <marker date="1542438647592" expanded="true" signature="1596:2259" ph="..." />
+                <marker date="1542438780022" expanded="true" signature="838:1550" ph="..." />
+                <marker date="1542438780022" expanded="true" signature="1161:1550" ph="..." />
+                <marker date="1542438780022" expanded="true" signature="1596:1601" ph="..." />
+                <marker date="1542438780022" expanded="true" signature="1596:2366" ph="..." />
               </folding>
             </state>
           </provider>
@@ -273,6 +271,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,7 +279,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6436782" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27586207" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -293,7 +292,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4054463" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4054463" />
       <window_info anchor="right" id="Database" order="4" weight="0.32970452" />
     </layout>
   </component>
@@ -369,13 +368,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linear_descent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
+        <state relative-caret-position="139">
+          <caret line="103" column="45" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
           <folding>
-            <marker date="1542438647592" expanded="true" signature="838:1550" ph="..." />
-            <marker date="1542438647592" expanded="true" signature="1161:1550" ph="..." />
-            <marker date="1542438647592" expanded="true" signature="1596:1601" ph="..." />
-            <marker date="1542438647592" expanded="true" signature="1596:2259" ph="..." />
+            <marker date="1542438780022" expanded="true" signature="838:1550" ph="..." />
+            <marker date="1542438780022" expanded="true" signature="1161:1550" ph="..." />
+            <marker date="1542438780022" expanded="true" signature="1596:1601" ph="..." />
+            <marker date="1542438780022" expanded="true" signature="1596:2366" ph="..." />
           </folding>
         </state>
       </provider>
