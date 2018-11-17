@@ -66,6 +66,6 @@ def export():
     return imgs, labs
 
 
-imgs, labs = export()
-# print(imgs[0])
-print(labs[2])
+# imgs, labs = export()
+# # print(imgs[0])
+# print(labs[2])

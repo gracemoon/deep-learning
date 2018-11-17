@@ -8,6 +8,7 @@ def mat_to_vec(matrix):
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             vector.append(matrix[i][j])
+    return vector
 
 
 # 定义数字字典
@@ -43,12 +44,13 @@ def update_weight(old_weight_array, neural_noodes, out_errors, hidden_errors, ra
     # weights_array1 = []
     # weights_array0 = []
     for i in range(len(old_weight_array[0])):
-        for j in range(len(old_weight_array[i])):
-            old_weight_array[i][j] = old_weight_array[i][j] + ratio * hidden_errors[i] * vector[j]
+        for j in range(len(old_weight_array[0][i])):
+            old_weight_array[0][i][j] = old_weight_array[0][i][j] + ratio * hidden_errors[i] * vector[j]
     for i in range(len(old_weight_array[1])):
-        for j in range(len(old_weight_array[i])):
-            old_weight_array[i][j] = old_weight_array[i][j] + ratio * out_errors[i] * neural_noodes[j]
+        for j in range(len(old_weight_array[1][i])):
+            old_weight_array[1][i][j] = old_weight_array[0][i][j] + ratio * out_errors[i] * neural_noodes[j]
     return old_weight_array
+
 
 # 计算输出层误差项
 def out_errors(outputs, gound_truth):
@@ -110,17 +112,21 @@ def back_propagation(dataset, labels):
         temp = []
         for j in range(300):
             temp.append(0)
-        weights.append(temp)
+        temp_weight.append(temp)
     weights_array.append(temp_weight)
 
-    dataset, labels = load_data()
     for g in range(len(dataset)):
         neural_nodes, outputs = calculate(dataset[g], weights_array)
-        outputs_errors = out_errors(outputs, labels)
+        outputs_errors = out_errors(outputs, labels[g])
         hidden_layer_errors = hidden_errors(weights_array, outputs, neural_nodes)
         weights_array = update_weight(weights_array, neural_nodes, outputs_errors, hidden_layer_errors, ratio,
                                       dataset[g])
+        print(g)
+    return weights_array
 
 
+g_dataset, g_labels = load_data()
+g_weights_array = back_propagation(g_dataset, g_labels)
+print(g_weights_array)
 # 可视化
 # def visual():
